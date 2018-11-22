@@ -27,6 +27,7 @@ client.user.setGame(`By Gaming Dating Amanda |`,"http://twitch.tv/S-F")
   console.log('+[------------]+')
   console.log('')
   console.log('')
+  Promise.reject(new Error('woops'));
 });
 
 
